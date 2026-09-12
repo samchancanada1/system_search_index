@@ -12,6 +12,10 @@ Captured on 2026-09-12 using the actual example app and Apple's Simulator.
 - `ios-spotlight-demo.mp4`: uninterrupted H.264 Simulator recording, approximately
   21 seconds, at the simulator's original 1206 x 2622 resolution. No replacement
   UI, composited search results, generated artwork, or retiming was used.
+- `ios-spotlight-demo.gif`: looping README preview derived from that MP4,
+  360 x 783 pixels, sampled at 10 fps, approximately 1.3 MB. Its final frame
+  remains visible so the total loop duration is 20.85 seconds, matching the
+  source duration reported by Apple's AVFoundation. The original MP4 is unchanged.
 
 ## Reproduce
 

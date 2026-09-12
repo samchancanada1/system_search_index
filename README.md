@@ -19,7 +19,9 @@ Tapping it opens that note in the Flutter app through the activation stream.
 | --- | --- |
 | <img src="https://raw.githubusercontent.com/samchancanada1/system_search_index/main/doc/media/ios-spotlight-results.png" width="280" alt="Real iOS Spotlight showing the indexed Lemon pasta note as a top result"> | <img src="https://raw.githubusercontent.com/samchancanada1/system_search_index/main/doc/media/ios-spotlight-opened-note.png" width="280" alt="The Flutter example showing the note opened from Spotlight"> |
 
-[Watch the 21-second simulator recording (MP4)](https://github.com/samchancanada1/system_search_index/blob/main/doc/media/ios-spotlight-demo.mp4).
+<img src="https://raw.githubusercontent.com/samchancanada1/system_search_index/main/doc/media/ios-spotlight-demo.gif" width="360" alt="Animated recording of Spotlight searching for Lemon pasta and opening the matching Flutter note">
+
+The looping GIF is approximately 1.3 MB. [Watch the original 21-second simulator recording (MP4)](https://github.com/samchancanada1/system_search_index/blob/main/doc/media/ios-spotlight-demo.mp4).
 The clip shows typing, native results, and returning to the already-running app.
 Spotlight controls ranking and may place web suggestions above app content;
 the top-result position shown here is not guaranteed. This demonstrates indexed
