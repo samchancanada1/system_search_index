@@ -1,0 +1,29 @@
+name: system_search_index
+description: On-device search with iOS Spotlight semantic queries and suggestions, Android AppSearch, and Spotlight launch events.
+version: 0.1.0
+homepage: https://github.com/samchancanada1/system_search_index
+repository: https://github.com/samchancanada1/system_search_index
+issue_tracker: https://github.com/samchancanada1/system_search_index/issues
+topics: [spotlight, appsearch, search, ios, android]
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+  flutter: '>=3.44.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: dev.tungworks.system_search_index
+        pluginClass: SystemSearchIndexPlugin
+      ios:
+        pluginClass: SystemSearchIndexPlugin
