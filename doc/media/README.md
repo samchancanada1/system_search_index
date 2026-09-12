@@ -63,6 +63,5 @@ pub.dev archive only. They remain tracked in Git and hosted on GitHub. Root
 and example `.gitignore` rules still exclude build output and local caches.
 
 GitHub hosting and pub.dev publication are separate steps. The root README
-installation example now targets `0.1.0` with an explicit unpublished notice.
-Remove that notice only after publication succeeds, and verify the public
-media links before releasing future versions.
+installation example targets `0.1.0`. Verify that the version exists on pub.dev
+after uploading, and check public media links before releasing future versions.

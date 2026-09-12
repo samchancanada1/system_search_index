@@ -60,10 +60,6 @@ dependencies:
   system_search_index: ^0.1.0
 ```
 
-Release status: `0.1.0` is prepared but has not been published to pub.dev yet.
-Until publication, use a local checkout of this repository instead of the hosted
-dependency above.
-
 No network permission, API key, or cloud service is required. Content stays in
 the OS's on-device index. This plugin does not request contacts, photo-library,
 or storage access.
