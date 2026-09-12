@@ -53,17 +53,16 @@ lexical results when models/languages/hardware do not support semantic matches.
 
 ## Install
 
-Until published on pub.dev, depend on the GitHub repository:
+Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  system_search_index:
-    git:
-      url: https://github.com/samchancanada1/system_search_index.git
-      ref: main
+  system_search_index: ^0.1.0
 ```
 
-For reproducible builds, replace `main` with a specific commit SHA.
+Release status: `0.1.0` is prepared but has not been published to pub.dev yet.
+Until publication, use a local checkout of this repository instead of the hosted
+dependency above.
 
 No network permission, API key, or cloud service is required. Content stays in
 the OS's on-device index. This plugin does not request contacts, photo-library,

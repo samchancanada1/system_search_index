@@ -1,5 +1,24 @@
 # Validation
 
+## Release preparation (2026-09-12)
+
+- Added a directory-scoped `doc/media/.pubignore`. The compressed publication
+  archive dropped from 12 MB to 62 KB. Verified that all four presentation
+  assets are absent from the archive while Dart/native sources, package
+  manifests, privacy metadata, the license, and example app icons remain.
+- The four media files remain tracked in Git; their public GitHub URLs returned
+  HTTP 200. Root/example ignore rules continue to exclude local build caches.
+- The README now shows `system_search_index: ^0.1.0`, checked against the actual
+  pubspec version using a YAML parser. It explicitly states that the version
+  has not been published yet, so a hosted installation is not claimed as tested.
+- Re-ran Flutter analysis (no issues), 14 package tests, one example widget test,
+  Dart formatting, and Git whitespace checks successfully.
+- Added `dart pub publish --dry-run` to the Dart CI job. The preceding GIF
+  revision passed all three GitHub jobs: Dart, Android, and iOS.
+- The pre-commit dry run had only the expected uncommitted-files warning. The
+  clean-commit dry run and the updated GitHub workflow are the final release
+  checks. No `dart pub publish` upload was performed.
+
 ## System UI capture follow-up (2026-09-12)
 
 The actual iOS Spotlight UI was exercised with XCTest on the iPhone 17 Pro

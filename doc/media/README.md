@@ -58,6 +58,11 @@ absolute `raw.githubusercontent.com` image URLs and a GitHub video link so it
 does not depend on pub.dev resolving local asset paths. Keep the media files
 available at those URLs when publishing future package versions.
 
-GitHub hosting and pub.dev publication are separate steps. Before publishing,
-verify the public media links and switch the root README installation example
-to the version actually being released on pub.dev.
+The `.pubignore` in this directory excludes PNG, GIF, and MP4 files from the
+pub.dev archive only. They remain tracked in Git and hosted on GitHub. Root
+and example `.gitignore` rules still exclude build output and local caches.
+
+GitHub hosting and pub.dev publication are separate steps. The root README
+installation example now targets `0.1.0` with an explicit unpublished notice.
+Remove that notice only after publication succeeds, and verify the public
+media links before releasing future versions.

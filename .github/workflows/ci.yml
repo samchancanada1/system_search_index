@@ -16,6 +16,7 @@ jobs:
       - run: flutter test
       - run: flutter test
         working-directory: example
+      - run: dart pub publish --dry-run
   android:
     runs-on: ubuntu-latest
     steps:
